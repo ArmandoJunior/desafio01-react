@@ -37,8 +37,6 @@ function App() {
 
     repositories.splice(repositoryIndex, 1);
 
-    console.log(repositories);
-
     setRepositories([...repositories])
   }
 
